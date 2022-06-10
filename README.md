@@ -10,12 +10,12 @@
 
 2.  Dry-run
 
-   helm install bunch-of-deployments-helm-chart --dry-run bunch-of-deployments-helm-chart -f ./values.yaml
+   helm install bunch-of-deployments-helm-chart --dry-run . -f ./values.yaml
 
 
 3. Actually deploying:
 
-   helm install bunch-of-deployments-helm-chart bunch-of-deployments-helm-chart -f ./values.yaml
+   helm install bunch-of-deployments-helm-chart . -f ./values.yaml
 
 
 4. Postcheck
